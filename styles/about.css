@@ -1,0 +1,325 @@
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(../images/about111.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh ;
+}
+.begin{
+    max-width: 600px;
+    padding: 230px 20px 50px 100px;
+    
+    color: #ffff;
+}
+.begin h1{
+font-size: 50px;
+padding: 10px 0;
+}
+.begin button{
+    background-color:var(--sub);
+    outline: none;
+    padding: 15px 35px;
+    border: none;
+    margin: 20px 0;
+    margin-right: 10px;
+    margin-top: 40px;
+    font-weight: 600;
+  color: #ffff;
+}
+.begin button:hover{
+  background-color: transparent;
+  border: 1px solid #ffff;
+  color: #fff;
+}
+/* <_________________________________________________________________________> */
+main{
+    padding: 70px 0 90px 0;
+    background-color:#ffff;
+margin: 0 !important;
+    }
+  
+  
+.card-container {
+   margin-top: -250px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap !important;
+    background-color:#ffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    padding: 50px;
+  }
+.card-content p a{
+    text-decoration: none;
+    color:#fff;
+    border-bottom: 1px solid var(--main);
+    font-size: 13px;
+    font-weight: 550;
+}
+.card-content p a:hover{
+    
+    color: var(--sub);
+    border-bottom: 1px solid var(--sub);
+}
+  .ccard{
+    position: relative;
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .ccard img {
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .ccard:hover img {
+    transform: scale(1.1);
+  }
+
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background:rgba(0, 0, 0, 0.5);
+   
+    padding: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ccard:hover .card-content {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:220px;
+    border-radius: 0;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .card-content h3 {
+    font-size: 17px;
+    color: #ffff;
+margin-top: 50px;
+  }
+
+  .card-content p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #ffff;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .ccard:hover .card-content p {
+    opacity: 1;
+  }
+  /* <____________________________________________________________> */
+  section{
+    min-height: 95vh;
+    width: 100%;
+  }
+  .sider img{
+    width: 580px;
+    height: 500px;
+  }
+  .sider{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+  }
+  .asid{
+    max-width: 600px !important;
+    padding-top: 20PX;
+  }
+  .asid .hid{
+   background-color:var(--sub);
+   width: 120PX;
+   height: 8px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+  }
+  .asid h1{
+    font-size: 40px;
+  }
+  .asid .p1{
+    padding: 40px 0;
+  }
+  .asid .p3{
+    padding: 40px 0;
+  }
+  .asid button{
+    background-color:var(--sub);
+    outline: none;
+    padding: 14px 38px;
+    border: none;
+    margin: 10px 0;
+   font-weight: 600;
+   font-size: 13px;
+    color: #fff;
+}
+.asid button:hover{
+  background-color: #ffff;
+  color: var(--sub);
+  border: 2px solid var(--sub);
+}
+/* <_____________________________________________________________> */
+.section1{
+  min-height: 80vh;
+width: 100%;
+display: flex;
+align-items: start;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 50px;
+}
+.section1  img{
+width: 710px;
+height: 500px;
+}
+.section1-asid{
+  background-color: #000;
+  color: #fff;
+  width: 800px;
+  height: 500px;
+}
+.section1-asid h1{
+  padding: 60px 10px 30px 150px;
+
+}
+.section1-asid .f-cen{
+  padding: 20px 0;
+}
+.section1-asid .f-cen i{
+  padding: 10px;
+  margin-right: 20px;
+  line-height: 15px;
+  background-color:#ffff;
+  color:var(--sub);
+  border-radius: 50%;
+}
+.section1-asid .f-cen h3{
+  padding-bottom: 15px;
+}
+/* <______________________________________________________________________> */
+.section2 img{
+  width: 50px;
+  height: 50px;
+}
+.section2 .cart{
+  width: 320px;
+  background-color:#fff;
+  padding:45px 0px 0 42px ; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.section2{
+  min-height: 92vh;
+  width: 100%;
+padding-top: 70px;
+}
+.section2 h1{
+  text-align: center;
+  font-size: 37px;
+}
+.section2 .cart h3{
+  padding:  13px 0;
+  font-size: 20px;
+}
+.section2 .cart  p{
+  font-size: 14px;
+  margin-right: 30px;
+  padding-bottom: 35px;
+  line-height: 24px;
+  
+}
+.cart .final{
+  padding: 17px 15px;
+  background-color: #000;
+  color: #fff;
+}
+.i2{
+  padding: 12px 13px;
+  border: 2px solid #000;
+  margin-right: 10px;
+}
+/* <____________________________________________________> */
+.section3{
+  min-height: 45vh;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.section3 .card{
+width: 270px;
+
+}
+.section3 .card h1{
+  font-size: 35px;
+  color: var(--sub);
+}
+.section3 .card  .pp{
+  padding: 16px 0;
+  font-size: 16px;
+}
+.section3 .card p{
+  font-size: 14px;
+line-height: 27px;
+}
+.cont{
+  padding: 80px 0 0 0 ;
+}
+/* <________________________________________________________________> */
+.section4{
+  min-height: 90vh;
+  width: 100%;
+
+}
+.section4 .write{
+  max-width: 380px;
+  margin-right: 60px;
+}
+.section4 .write h1{
+  padding: 15px 0;
+  font-size: 45px;
+}
+ button{
+  background-color: var(--sub);
+  outline: none;
+  padding: 15px 38px;
+  border: none;
+  margin: 10px 0;
+ margin-top: 25px;
+  color: #fff;
+}
+.section4 img{
+  width: 260px;
+  height: 440px;
+  margin-right: 15px;
+}
+
+
+
+
+
+

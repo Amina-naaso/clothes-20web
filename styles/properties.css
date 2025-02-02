@@ -1,0 +1,365 @@
+  
+
+
+
+
+
+.chekrd {
+   max-width: 200px !important; 
+}
+ .shop1{
+  position: absolute;
+  color: #ffff;
+  background-color: var(--sub);
+  z-index: 9999999999;
+ bottom: 22px !important;
+  right: 41px;
+  border-radius: 50%;
+  font-size: 12px ;
+  padding: 4px 5px;
+  font-weight: 600;
+  line-height: 7px;
+}
+ 
+ 
+ 
+ .containerr{
+    width: 100%;
+    min-height: 120vh;
+    padding-bottom: 100px;
+}
+ button .check-{
+    font-size: 11px !important;
+
+}
+.bags-hover{
+  max-width: 480px;
+  padding: 20px 30px;
+  background-color: antiquewhite;
+  position: absolute;
+  right: 30px;
+  display: none;
+  margin-top: 10px !important;
+}
+button{
+    margin: 0;
+    font-family: inherit;
+     font-size: 13px !important; 
+    line-height: inherit;
+}
+.accordion{
+    padding-top: 150px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.accordion-button:focus{
+    z-index: 3;
+    /* border-color: var(--bs-accordion-btn-focus-border-color); */
+    background-color: #ffff;
+    outline: 0;
+     box-shadow:0 0 4px #ffff !important; 
+  }
+     .accordion-button:not(.collapsed) {
+      color: var(--bs-accordion-active-color);
+     background-color:#ffff !important;
+     box-shadow:0 0 4px #ffff !important; 
+  color: #000 !important;
+  }
+  .accordion-button{
+  padding: 18px 16px !important;
+  background-color: #ffff;
+  }
+  .accordion-button {
+  
+    background-color:#ffff !important;
+   
+  }
+  .accordion-item {
+    width: 700px !important;
+    padding: 8px 0;
+    background-color: #ffff !important;
+   text-align: center !important;
+   border:1px solid #dcd8d8 !important;
+  }
+
+
+
+  .filter{
+    width: 370px;
+    background-color: #ffff;
+    margin-top: 50px;
+    overflow: scroll;
+    height: 600px;
+    transition: all 0.7s;
+}
+.filter-2{
+  width: 100%;
+}
+.filter-1,.filter-2,.filter-3,.filter-4,.filter-5,.filter-6,.filter-6{
+      padding: 18px  15px;
+    border-bottom: 1px solid #000;
+  }
+.filter-1 h3,.filter-2 h3,.filter-3 h3,.filter-4 h3,.filter-5 h3,.filter-6 h3,.filter-6 h3{
+  font-size: 23px;
+}
+ 
+
+
+  .size{
+   padding-top: 6px;
+  }
+  .size h6{
+width: 150px;
+border: 1px solid #000;
+padding:9px;
+text-align: center;
+margin-bottom: 0 !important;
+  }
+  .filter-4 .input{
+    width: 100%;
+    padding: 12px ;
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #b9b8b8;
+  }
+  .inputs-check input[type="checkbox"]{
+   width: 20px;
+   height: 20px;
+   margin: 10px 0;
+   
+  }
+  .inputs-check label{
+   margin: px 0;
+
+  }
+
+  .chekrd {
+    max-width: 160px;
+  }
+  .filter-5 p{
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 13px;
+    
+    margin-top: 15px;
+  }
+  
+  
+  .spichal{
+    margin-top: 10px;
+  }
+  .spichal button{
+    outline: none;
+    padding: 6px 10px;
+    border: none;
+    border: 1px solid #000;
+    margin: 4px;
+    border-radius: 4px;
+  }
+  .spichal button:hover{
+    border-color:var(--sub);
+    color: var(--sub);
+  }
+  .cards{
+    width:320px ;
+  }
+  .card img{
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+  }
+  .card span{
+    width: 26px;
+    height: 25px;
+    margin: 8px;
+    border-radius: 3px;
+  } 
+  .card{
+    position: relative;
+  }
+  .card .hert{
+position: absolute;
+color:#fff;
+
+font-size: 16px;
+top: 21px;
+right: 17px;
+  }
+  .card .show{
+    position: absolute;
+   bottom: 210px;
+   background-color:#000;
+   padding: 10px;
+   border-radius: 50%;
+   right: 12px;
+    color: #ffff;
+    display: none;
+  }
+  .card:hover .show{
+    display: block !important;
+  }
+  .card p{
+    font-size: 15px;
+    padding: 0 2px 0 8px;
+    margin-bottom: 4px !important;
+  }
+  .card .sale{
+   padding: 5px 8px;
+  }
+  .card .sale h4{
+    font-weight: 700;
+  }
+  .card .sale p{
+    font-size: 18px;
+    color: #686767;
+    margin-top: -5px;
+    font-weight: 400;
+  }
+  .card .sale h5{
+    background-color:var(--sub);
+    color: #ffff;
+    font-size: 15px;
+padding: 2px 5px;
+margin-left: 5px;
+     border-radius: 2px;
+}
+.card .free{
+    font-size: 14px;
+    font-weight: 650;
+    margin-top: 8px;
+    letter-spacing: 0.6px;
+    padding: 8px;
+}
+.free i{
+  color: rgb(46, 172, 0);
+}
+.all-card{
+  width: 1100px;
+  min-height: 100vh;
+   margin-top: 50px;
+}
+.fil-img{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+
+#sider{
+  display: none;
+}
+#sider.show{
+  display: block !important;
+}
+
+#siderr{
+  display: none;
+}
+#siderr.show{
+  display: block !important;
+}
+#siderrr{
+  display: none;
+}
+#siderrr.show{
+  display: block !important;
+}
+#sider5{
+  display: none;
+}
+#sider5.show{
+  display: block !important;
+}
+#sider6{
+  display: none;
+}
+#sider6.show{
+  display: block !important;
+}
+#sider7{
+  display: none;
+}
+#sider7.show{
+  display: block !important;
+}
+#sider2{
+  display: none;
+}
+#sider2.show{
+  display: block !important;
+}
+#sider3{
+  display: none;
+}
+#sider3.show{
+  display: block !important;
+}
+/* <_____________________________________________________________> */
+.hidee span{
+  background-color: blue;
+}
+.hidee h2{
+font-size: 16px;
+margin: 15px 0;
+}
+.hidee p{
+font-size: 35px;
+}
+.hidee button{
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+  background-color: #000;
+  color: #ffff;
+}
+.hidee button:hover{
+  background-color: var(--sub);
+}
+.hidee .but{
+  margin: 15px 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#box-hide{
+  width: 300px;
+  height: 180px;
+  
+  background-color: #ffff;
+  box-shadow:  0 0 14px rgb(217, 215, 215);
+  text-align: center;
+  padding: 10px 5px;
+  color: #000;
+  position: fixed;
+  /* bottom: 230px;
+  right: 20px; */
+  bottom:230px ;
+  right: -320px;
+  z-index: 999;
+}
+
+#box-hide.shoow{
+   bottom: 230px;
+  right:0px;
+}
+
+.fedd{
+  width: 50px;
+  height: 130px;
+  background-color: var(--sub);
+
+  padding: 10px 5px;
+  color: #ffff;
+  position: fixed;
+  bottom: 255px;
+  right:2px;
+  z-index: 999;
+padding-top: 20px;
+
+}

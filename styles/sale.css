@@ -1,0 +1,298 @@
+.bode{
+    padding-top: 100px;
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)) ,url(../images/back4.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .bode p{
+        padding: 15px;
+        text-align: center;
+    }
+    .bode  h1{
+        font-size: 70px;
+    }
+    .bode button{
+        outline: none;
+        border: none;
+        padding: 16px 50px;
+    background-color: var(--sub);
+    color: #ffff;
+    margin: 10px 0;
+    }
+    /* <_____________________________________________________________________> */
+    main{
+        width: 100%;
+        height: 60vh;
+        padding-bottom: 70px;
+    }
+    main h3{
+        padding: 35px 0;
+    }
+    main h1{
+        font-size: 42px;
+        font-weight: 500;
+    }
+    main p{
+        padding: 35px 0;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /* <________________________________________________________________________> */
+    .main0{
+        min-height: 100vh;
+        width: 100%;
+    }
+    .main0 .immg1{
+width: 700px;
+height: 570px;
+border-radius: 5px;
+}
+.main0 .immg2{
+    width: 700px;
+    height: 570px;
+    border-radius: 5px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)) ,url(../images/sport2.jpg);
+background-position: center;
+background-size: cover;
+    }
+    .main0 .immg1{
+        width: 700px;
+        height: 570px;
+        border-radius: 5px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)) ,url(../images/sale5.jpg);
+        background-position: center;
+        background-size: cover;
+        }
+.pos{
+        position: relative;
+        
+    }
+    .abov2-main0{
+        position: absolute;
+        top:180px;
+        width: 320px;
+        left: 200px;
+        text-align: center;
+        color: #ffff;   
+    }
+    .abov2-main0 h1{
+        font-size: 43px;
+        font-weight: 500;
+    }
+    .abov2-main0 button{
+        outline: none;
+        border: none;
+        background-color: aliceblue;
+        color: black;
+        padding: 12px 25px ;
+        width: 80%;
+        margin: 25px 0;
+    }
+    .abov-main0{
+        position: absolute;
+        top:180px;
+        width: 320px;
+        left: 200px;
+        text-align: center;
+        color: #ffff;
+    }
+    .abov-main0 h1{
+        font-size: 43px;
+        font-weight: 500;
+    }
+    .abov-main0 button{
+        outline: none;
+        border: none;
+        background-color: aliceblue;
+        color: black;
+        padding: 12px 25px ;
+        width: 80%;
+        margin: 25px 0;
+    }
+    /* <___________________________________________________________________> */
+    
+    .main1{
+        min-height: 100vh;
+        width: 100%;
+    }
+    .addres-main1 h1{
+        text-align: center;
+padding: 15px 0;
+font-size: 43px;
+    }
+    .addres-main1 p{
+        text-align: center;
+    padding: 12px;
+    font-size: 17px;
+    line-height: 24px;
+    }
+    .buton-main1 button{
+        outline: none;
+        border: none;
+        border: 2px solid #000;
+        padding: 14px 35px;
+        background-color: #ffff;
+        margin: 40px  30px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .cards{
+        width:320px ;
+        
+      }
+      .card{
+        position: relative;
+      }
+      .card .hert{
+    position: absolute;
+    color:#fff;
+    
+    font-size: 16px;
+    top: 21px;
+    right: 17px;
+      }
+      .card .show{
+        position: absolute;
+       bottom: 210px;
+       background-color: #000;
+       padding: 10px;
+       border-radius: 50%;
+       right: 12px;
+        color: #ffff;
+        display: none;
+      }
+      .card:hover .show{
+        display: block !important;
+      }
+      .card img{
+        width: 320px;
+        height: 380px;
+        object-fit: cover;
+      }
+      .card span{
+        width: 26px;
+        height: 25px;
+        margin: 8px;
+        border-radius: 3px;
+      } 
+      .card p{
+        font-size: 15px;
+        padding: 0 2px 0 8px;
+        margin-bottom: 4px !important;
+      }
+      .card .sale{
+       padding: 5px 8px;
+      }
+      .card .sale h4{
+        font-weight: 700;
+      }
+      .card .sale p{
+        font-size: 18px;
+        color: #686767;
+        margin-top: -5px;
+        font-weight: 400;
+      }
+      .card .sale h5{
+        background-color:var(--sub);
+        color: #ffff;
+        font-size: 15px;
+    padding: 2px 5px;
+    margin-left: 5px;
+         border-radius: 2px;
+    }
+    .card .free{
+        font-size: 14px;
+        font-weight: 650;
+        margin-top: 8px;
+        letter-spacing: 0.6px;
+        padding: 8px;
+    }
+    .free i{
+        color: rgb(0, 156, 0);
+    }
+    .all-card{
+      width: 1100px;
+      min-height: 100vh;
+       margin-top: 50px;
+    }
+    .fil-img{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        padding-left: 30px;
+    }
+
+    .cards-container{
+        
+        display: none;
+      }
+  
+      .cards-container.active {
+        display: flex;
+      }
+      .button{
+        background-color: #ffff!important;
+        
+    }
+    .button.active{
+        background-color: #000 !important;
+        color: #ffff;
+       border: 2px solid #000;
+    }
+    /* <_________________________________________________________________> */
+    .main3{
+        min-height: 90vh;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .asid1-main3 img{
+        width: 350px;
+height: 440px;
+    }
+    .asid2-main3{
+        width: 1160px;
+        height: 440px;
+        color: #ffff;
+        
+    }
+    .updat{
+        max-width: 400px;
+    }
+    .updat h1{
+        padding: 10px 0;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .updat p{
+        line-height: 24px;
+        max-width:400px ;
+    }
+    .updat button{
+        outline: none;
+        border: none;
+        background-color:var(--sub);
+        color: #ffff;
+        padding: 12px 5px;
+        margin: 35px 0;
+        font-weight: 600;
+        width: 50%;
+    }
+    .asid1-main3{
+        position: relative;
+    }
+    .hide{
+        position: absolute;
+        top: 60px;
+        left: 280px;
+    }
+    .hide img{
+        width: 230px;
+        height: 310px;
+        
+    }

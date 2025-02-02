@@ -1,0 +1,261 @@
+.section{
+    padding-top: 150px;
+  width:   1050px;
+    
+    min-height: 100vh;
+   margin-bottom: 100px;
+}
+.section button{
+    background-color:#fff;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    padding:14px 35px ;
+    width: 275px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.section button:hover{
+  border: 1px solid #ffff;
+  background-color: var(--sub);
+  color: #ffff;
+
+}
+.section button:hover a{
+  color: #ffff !important;
+}
+.fast p{
+   padding: 18px 0 0 25px;
+   font-size: 15px;
+}
+.fast p i{
+   padding-right: 15px;
+ }
+ .fast{
+    padding-top: 25px;
+    
+ }
+ .shopping{
+display: flex;
+align-items: start;
+justify-content: center;
+flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+ .shopping  img{
+width: 280px;
+height: 310px;
+ }
+ .shopping  select{
+   width: 140px;
+   padding: 9px 8px 9px 1px;
+   outline: none;
+   background-color: #fff;
+   border-radius: 3px;
+   margin-top: 18px;
+ } 
+
+ .col p{
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+background-color: var(--sub);
+margin-top: 2px;
+ }
+ .col {
+   padding: 7px  5px 7px 0;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10px;
+   padding-top: 20px;
+ }
+ .col  i{
+   font-size: 17px;
+
+ }
+ .col a{
+   color: black;
+   font-size: 15px;
+   border-bottom: 2px solid #000;
+   text-decoration: none;
+   font-weight: 650;
+ }
+ .save span{
+   padding-left: 12px;
+   font-size: 14px;
+ }
+ .save span a{
+   text-decoration: none;
+   color: black;
+ }
+ .asaid {
+   padding-left: 40px;
+   padding-right: 40px;
+   background-color: rgb(247, 245, 245);
+   color: black;
+ }
+ .asaid .subb{
+
+    border-bottom: 1px solid #000;
+ }
+ .asaid .subb p{
+padding: 27px 0;
+font-size: 15px;
+font-weight: 500;
+ }
+ .asaid .est{
+
+   border-bottom: 1px solid #000;
+}
+.asaid .est h3{
+padding: 27px 0;
+}
+.vat{
+   padding: 30px 0;
+   font-size: 15px;
+}
+.app{
+   padding: 15px 0;
+}
+ .app button{
+   border-bottom: 1px solid #000;
+
+   background-color: #000;
+   outline: none;
+   padding: 13px 40px;
+   border: none;
+   margin: 10px 0;
+ 
+   color: #fff;
+ }
+ .app input{
+   padding-left: 30px;
+   padding: 12px 30px;
+   outline: none;
+ }
+ .check{
+   border-bottom: 1px solid #000;
+font-weight: 600;
+   background-color:var(--sub);
+   outline: none;
+   padding: 16px 40px;
+   border: none;
+   margin: 7px 0;
+width: 385px;
+   color: #fff;
+ }
+ /* <<______________________________________________> */
+ .input{
+  position: absolute;
+  top: 110px;
+  left: 500px;
+  min-height: 300px;
+  width: 460px;
+  background-color: #000;
+  margin-top: 100px;
+padding: 30px;
+color: #ffff;
+box-shadow: 0 0 14px rgb(229, 227, 232);
+
+ }
+ header{
+  position: relative;
+ }
+ 
+ .clos i{
+  font-size: 25px;
+ }
+ form h1{
+  padding: 1px 2px 13px 1px;
+ }
+ form input{
+  width: 100%;
+padding: 14px;
+margin: 14px 0;
+outline: none;
+border-radius: 5px;
+border:  1px solid #c6c4c4;
+background-color: #000;
+position: relative;
+color: #fff;
+ }
+ form .email{
+  position: absolute;
+  top: 110px;
+  background-color:#000;
+  border-radius: 3px;
+  left: 50px;
+  color: #ffff; 
+
+   z-index: 999;
+  font-size: 13px;
+  padding: 2px 8px;
+  font-weight: 700;
+ }
+ form .pass{
+  position: absolute;
+  top: 183px;
+  background-color: #000;
+  border-radius: 3px;
+  left: 50px;
+  z-index: 999;
+  color: #ffff;
+  font-size: 13px;
+  padding: 2px 8px;
+  font-weight: 700;
+ }
+ form .remmber label{
+  font-size: 15px;
+
+ }
+ form .remmber p{
+  font-size: 13px;
+  color: #cac7c7;
+  padding-right: 15px;
+ }
+ form button{
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 15px ;
+  background-color:#ffff;
+  color: #000;
+  margin: 15px 0;
+  font-weight: 700;
+ }
+ form button:hover{
+  background-color: var(--sub);
+  color: #ffff;
+ }
+ .endd{
+  text-align: center;
+  margin-top: 30px;
+ }
+ .endd p{
+  font-size: 13px ;
+  text-align: center;
+  color: #d6d2d2;
+ }
+.endd span{
+  font-size: 16px;
+ color: #bab6b6;
+}
+.endd  a{
+  color: #ffff;
+  }
+
+  .search-box{
+  
+    transform: scale(0);
+}
+
+
+
+.search-box.showw{
+    transform: scale(1);
+
+}
